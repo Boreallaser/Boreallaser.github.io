@@ -1,16 +1,19 @@
 var names = new Array();
-names[0] = "Asim";
-names[1] = "Jason";
-names[2] = "Jenny";
-names[3] = "John";
-names[4] = "Jason";
-names[5] = "Jack";
-names[6] = "Matt";
+names[0] = "Yaakov";
+names[1] = "John";
+names[2] = "Jen";
+names[3] = "Jason";
+names[4] = "Paul";
+names[5] = "Frank";
+names[6] = "Larry";
+names[7] = "Paula";
+names[8] = "Laura";
+names[9] = "Jim";
 
 for (var i = 0; i < names.length; i++) {
   if (names[i].charAt(0) === "J") {
-    console.log("GOODBYE " + names[i]);
+    console.log("Good Bye " + names[i]);
   } else {
-    console.log("HELLO " + names[i]);
+    console.log("Hello " + names[i]);
   }
 }
